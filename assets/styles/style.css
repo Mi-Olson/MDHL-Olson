@@ -6,10 +6,9 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
-.figure2{
-   
-    margin-bottom: 400px;
-  
+header img{
+  width: auto;
+  height: 200px;
 
 }
 
@@ -38,9 +37,9 @@ header>h1 , header>nav{
 
 figure{
   width: 100%;
-  float: left;
-  padding-left: 0px;
-  padding-inline-end: 0px;
+  /* float: left; */
+  /* padding-left: 0px;
+  padding-inline-end: 0px; */
 
 }
 #selected{
