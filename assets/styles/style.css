@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.figure2{
+   
+    margin-bottom: 400px;
+  
+
+}
+
+
+
+
+header>h1 , header>nav{
+  display: inline;
+  margin: 0 70px;
+}
+#nav{
+  position: absolute;
+  color: aqua;
+  margin-top: 40px;
+ 
+}
+.nav_a{
+  background-color: blue;
+  text-decoration: none;
+  border-radius: 8px;
+  color: aliceblue;
+  /* height: 50px; */
+  padding: 0 15px;
+  letter-spacing: 2px;
+}
+
+figure{
+  width: 100%;
+  float: left;
+  padding-left: 0px;
+  padding-inline-end: 0px;
+
+}
+#selected{
+  background-color: rgb(80, 236, 127);
+}
+
+
+   
