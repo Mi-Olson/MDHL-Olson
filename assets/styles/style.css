@@ -23,36 +23,31 @@
   left: 10%;
   display: inline-block;
   font-style: italic;
+  font-size: 3vw;
   letter-spacing:5px;
- 
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
 #nav {
   position: absolute;
- 
   left: 60%;
   top: 70%;
-  
-  height: 50%;
+  width: 100vw;
+  height: 50vw;
   z-index: 3;
 }
 
 .nav_a {
   background-color: blue;
   text-decoration: none;
-  /* border-radius: 8px; */
   color: aliceblue;
-  /* border: 2px solid rgb(82, 82, 175); */
   border: 1px solid rgb(0, 0, 0);
-  height: 50px;
+  height: 50%;
   padding: 10px 15px;
   letter-spacing: 2px;
-  /* box-shadow: 20px 20px 50px 10px rgb(109, 158, 204) ; */
+  
   box-shadow: 2px 2px rgb(156, 158, 158);
-
-
 
 }
 
@@ -72,8 +67,7 @@
 #selected {
   background-color: rgb(11, 128,27);
   border: 1px solid rgb(0, 0, 0);
-  /* border: 2px solid rgb(120, 196, 101); */
-  /* box-shadow: 20px 20px 50px 10px rgb(181, 202, 192) inset; */
+  
 }
 
 
@@ -106,8 +100,6 @@ header img {
 
 .title {
   margin: 0px;
-  /* background-color: #222; */
-  /* color: #fff; */
   color: rgb(7, 7, 7);
   font: italic smaller sans-serif;
   font-size: 32px;
@@ -123,10 +115,7 @@ main {
   position: relative;
 
   top: 0;
-  /* color: aliceblue;
-  background-color: #4d4b51;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23161616' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E"); */
-
+  
 }
 
 
