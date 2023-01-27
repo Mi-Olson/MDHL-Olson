@@ -12,7 +12,7 @@
   position: relative;
   top: 0;
   left: 0;
-  height: 50px;
+  height: 9vh;
   width: 100%;
 
 }
@@ -32,7 +32,7 @@
 #nav {
   position: absolute;
   left: 60%;
-  top: 70%;
+  top: 85%;
   width: 100vw;
   height: 50vw;
   z-index: 3;
@@ -73,18 +73,7 @@
 
 
 /* estilos de imagen */
-header img {
 
-  position: absolute;
-  left: -100%;
-  right: -100%;
-  top: -20%;
-  bottom: -100%;
-  margin: auto;
-  min-height: 100%;
-  min-width: 100%;
-
-}
 
 .container {
 
@@ -92,6 +81,9 @@ header img {
   height: 300px;
   overflow: hidden;
   margin: 10px 0px 0px 0px;
+  background-image: url("/assets/img/design1_image1.jpg");
+  background-size: cover;
+  background-position-y: 25%;
 
   position: relative;
 
