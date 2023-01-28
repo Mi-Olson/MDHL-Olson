@@ -1,0 +1,37 @@
+ .conteiner_michis {
+    position: relative;
+    display: inline-block;
+    margin-top: -100px;
+    top: 0;
+     margin-left: 30px;
+     height: 100%;
+     z-index: 01;
+ }
+ #pacha{
+     position: absolute;
+     top: 70%;
+     /* left: 50%; */
+     display: inline-block;
+ }
+ #michi{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    display: inline-block;
+    transition: 10s;
+    transform: translate(50px, -30px);
+}
+/* #michi:hover{
+    transform: translate(50px, -30px);
+} */
+#manchis{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    transition: 12s;
+    transform: translate(50px, -30px);
+}
+#manchis:hover{
+    transform: translate(380px) rotate(20deg);
+}
