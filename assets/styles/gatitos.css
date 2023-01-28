@@ -1,37 +1,86 @@
- .conteiner_michis {
-    position: relative;
+ 
+ .container_michis {
+    position: absolute;
+   
+    width: 95%;
     display: inline-block;
-    margin-top: -100px;
-    top: 0;
-     margin-left: 30px;
+    /* margin-top: 90px; */
+    top: 40%;
+     
      height: 100%;
      z-index: 01;
+     background-color: transparent;
  }
+ .iconosAbout{
+    width: 200px;
+    height: 200px;
+    margin:2px;
+}
+
+
  #pacha{
      position: absolute;
-     top: 70%;
+     top: 20%;
      /* left: 50%; */
      display: inline-block;
+     transition: 6s;
  }
+ #pacha:hover{
+    transform: translate(80px,-30px) rotate(40deg);
+ }
+ 
+ #amigo{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    display: inline-block;
+    transition: 6s;
+}
+#amigo:hover{
+    transform: translate(-30px,80px) rotate(40deg);
+   
+}
  #michi{
     position: absolute;
-    top: 60%;
-    left: 30%;
+    top: 30%;
+    left: 40%;
     display: inline-block;
     transition: 10s;
     transform: translate(50px, -30px);
 }
-/* #michi:hover{
-    transform: translate(50px, -30px);
-} */
+ #michi:hover{
+    
+    transform: skewY(20deg);
+} 
 #manchis{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 0%;
+    left: 40%;
     display: inline-block;
     transition: 12s;
     transform: translate(50px, -30px);
 }
 #manchis:hover{
     transform: translate(380px) rotate(20deg);
+    z-index: 1;
+}
+#cabezon{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    display: inline-block;
+    transition: 12s;
+    transform: translate(50px, -30px);
+}
+#muerto{
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    display: inline-block;
+    transition: 12s;
+    transform: translate(50px, -30px);
+}
+#muerto:hover{
+    transform: scaleY(1.5);
+   
 }
