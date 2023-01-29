@@ -1,7 +1,7 @@
  
  .container_michis {
     position: absolute;
-   
+    
     width: 95%;
     display: inline-block;
     /* margin-top: 90px; */
@@ -9,7 +9,7 @@
      
      height: 100%;
      z-index: 01;
-     background-color: transparent;
+     background-color: blue;
  }
  .iconosAbout{
     width: 200px;
@@ -20,7 +20,7 @@
 
  #pacha{
      position: absolute;
-     top: 20%;
+     top: 15%;
      /* left: 50%; */
      display: inline-block;
      transition: 6s;
