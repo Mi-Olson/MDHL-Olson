@@ -9,12 +9,33 @@
      
      height: 100%;
      z-index: 01;
-     background-color: blue;
+     /* background-color: blue; */
  }
+ /* figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+} */
+
+
+
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
  .iconosAbout{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin:2px;
+    border: thin #c0c0c0 solid;
 }
 
 
@@ -45,7 +66,7 @@
     top: 30%;
     left: 40%;
     display: inline-block;
-    transition: 10s;
+    transition: 6s;
     transform: translate(50px, -30px);
 }
  #michi:hover{
@@ -69,7 +90,7 @@
     top: 20%;
     left: 60%;
     display: inline-block;
-    transition: 12s;
+    transition: 6s;
     transform: translate(50px, -30px);
 }
 #muerto{
@@ -77,10 +98,11 @@
     top: 0%;
     left: 80%;
     display: inline-block;
-    transition: 12s;
+    transition: 6s;
     transform: translate(50px, -30px);
 }
-#muerto:hover{
-    transform: scaleY(1.5);
+#muerto:hover,#cabezon:hover{
+    transform: scaleY(1.1);
+    transform: scaleX(1.1); 
    
 }
