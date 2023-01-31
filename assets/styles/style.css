@@ -2,52 +2,70 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
   font-family: 'Mochiy Pop One', sans-serif;
+  color: aliceblue;
+  background-color: #4d4b51;
+  z-index: 0;
+
 }
 
 
 /* ************** ESTILOS DEL HEADER ********* */
 /* estilos de bloque de h1 y nav  */
 .container_header {
-  position: relative;
-  top: 0;
-  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-left: 0;
   height: 9vh;
   width: 90%;
-  display: inline-block;
+  z-index: 0;
+ 
 
 }
 
 .container_header>h1 {
-  position: absolute;
-  top:30%;
-  left: 10%;
+  display: flex;
+  margin-left: 5%;
   display: inline-block;
   font-style: italic;
-  font-size: 2.5vw;
+  font-size: 2.0vw;
   font-weight:normal;
  
 
 }
 
 #nav {
-  position: absolute;
-  left: 60%;
-  top: 85%;
-  width: 30vw;
-  height: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+  margin-top: 13%;
+  width: 40vw;
+  height:20vh;
   z-index: 3;
+  background-color:transparent;
+ 
 }
 
 .nav_a {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
   background-color: blue;
+  font-size: small;
   text-decoration: none;
   color: aliceblue;
   border: 1px solid rgb(0, 0, 0);
-  height: 50%;
-  padding: 10px 15px;
-  letter-spacing: 2px;
+  height: 30%;
+  padding: 0px 10px;
+  
+  margin:10px 5px ;
+  border-radius: 8px;
+  text-align: center;
   
   box-shadow: 2px 2px rgb(156, 158, 158);
 
@@ -78,7 +96,7 @@
 
 
 .container {
-
+   /* display: flex; */
   width: 90%;
   height: 300px;
   overflow: hidden;
@@ -87,16 +105,16 @@
   background-image: url("../img/design1_image1.jpg");
   background-size: cover;
   background-position-y: 25%;
-
-  position: relative;
+ z-index: 2;
+ 
 
 }
 
 
 .title {
   margin: 0px 0px 0px 4.5%;
-  color: rgb(7, 7, 7);
-  
+  color: rgb(247, 244, 244);
+  background-color: black;
   font-size: 24px;
   
   text-align: center;
@@ -111,7 +129,10 @@ main {
   position: relative;
  width: 90%;
   top: 0;
-  
+  /* color: aliceblue; */
+  /* background-color: #4d4b51;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23161616' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+  z-index: -1; */
 }
 
 
@@ -172,4 +193,16 @@ h5>a {
 }
 section{
   margin-bottom: 10px;
+}
+
+/**      rules     **/
+.abc{
+  margin-left: 10%;
+}
+.regulations{
+  margin: 20px 30px;
+}
+footer{
+  display: flex;
+  justify-content: flex-end;
 }
