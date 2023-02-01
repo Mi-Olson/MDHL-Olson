@@ -159,13 +159,13 @@ main {
 /* estilos del contenedor de texto del main */
 #container2 {
   display: flex;
-  margin-left: 20%;
+  flex-direction: column;
+  margin-left: 10%;
   margin-top: 30px;
   width: 70%;
   height: auto;
-  display: inline-block;
   text-align: justify;
-  
+  scroll-behavior: smooth;
 }
 
 h5 {
@@ -178,11 +178,7 @@ h5 {
 
   
 }
-dd{
-  text-indent: 2%;
-  font-weight: 400;
-  font-family: 'Poppins', sans-serif;
-}
+
 h4{
   font-weight: normal;
   font-style: italic;
@@ -215,4 +211,27 @@ footer{
 }
 footer>p {
   font-size: 8px;
+}
+th,td{
+  width: 5%;
+  text-align: center;
+  padding-top: .5em;
+
+
+  border-top: 1px solid yellow;
+  border-left: 1px solid yellow;
+  
+
+}
+.tbody{
+  font-weight:100;
+  font-size:10px;
+}
+table{
+ 
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid yellow;
+  border-right: 1px solid yellow;
+  
+  
 }
