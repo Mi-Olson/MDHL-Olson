@@ -96,7 +96,7 @@
 
 
 .container {
-   /* display: flex; */
+   display: flex;
   width: 90%;
   height: 300px;
   overflow: hidden;
@@ -126,22 +126,22 @@
 
 /* ********** ESTILOS DEL MAIN  ********************* */
 main {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  /* position: relative; */
  width: 90%;
   top: 0;
-  /* color: aliceblue; */
-  /* background-color: #4d4b51;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23161616' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
-  z-index: -1; */
+ 
 }
 
 
 /* estilos del logo  */
 #figure2 {
-  position: absolute;
+  display: flex;
+ 
   width: 10%;
   border-radius: 8px;
-  left: 10%;
+  margin-left: 10%;
   margin-top: 2%;
   
   display: inline-block;
@@ -158,11 +158,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 /* estilos del contenedor de texto del main */
 #container2 {
-  position: absolute;
-  left: 40%;
-  
+  display: flex;
+  margin-left: 20%;
   margin-top: 30px;
-  left: 30%;
   width: 70%;
   height: auto;
   display: inline-block;
@@ -179,6 +177,11 @@ h5 {
   font-family: 'Poppins', sans-serif;
 
   
+}
+dd{
+  text-indent: 2%;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
 h4{
   font-weight: normal;
@@ -204,5 +207,12 @@ section{
 }
 footer{
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  width: 90%;
+  margin-bottom: 0px;
+  margin-left: 5%;
+  
+}
+footer>p {
+  font-size: 8px;
 }
