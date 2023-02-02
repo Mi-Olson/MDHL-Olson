@@ -19,7 +19,7 @@
   align-items: center;
   margin-top: 0;
   margin-left: 0;
-  height: 9vh;
+  height: 7vh;
   width: 90%;
   z-index: 0;
 
@@ -35,6 +35,7 @@
   font-weight: normal;
   justify-content: center;
   border-bottom: 1px solid#FC0;
+  text-shadow: rgb(255, 0, 0) 1px 0 10px;
 
 
 
@@ -45,7 +46,7 @@
   flex-direction: row;
   justify-content: end;
 
-  margin-top: 13%;
+  margin-top: 11%;
   width: 40vw;
   height: 20vh;
   z-index: 3;
@@ -98,13 +99,13 @@
 .container {
   display: flex;
   width: 90%;
-  height: 300px;
+  height: 36vh;
   overflow: hidden;
   margin: 1% 0% 0% 4.5%;
   display: inline-block;
   background-image: url("../img/design1_image2.jpg");
   background-size: cover;
-  background-position-y: 45%;
+  background-position-y: 35%;
   z-index: 2;
 
 
@@ -129,7 +130,7 @@ main {
   flex-direction: row;
   width: 90%;
   margin-top: 0.5%;
-  min-height: 38vh;
+  min-height: 30vh;
 
 }
 
@@ -152,19 +153,26 @@ main {
 }
 
 /* estilos del contenedor de texto del main */
-#container2 {
+.container2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
-  margin-left: 10%;
-  margin-top: 30px;
+  margin-left: 15%;
+
   width: 70%;
   text-align: left;
 
 }
 
-#container2>h3,
+#container2 {
+  width: 30%;
+  margin-left: 1px;
+  margin-left: 3%;
+
+}
+
+.container2 h3,
 h2 {
   margin-bottom: 10px;
   text-shadow: #FC0 1px 0 10px;
@@ -185,10 +193,11 @@ h5 {
 h4 {
   font-weight: normal;
   font-style: italic;
+  text-shadow: rgb(30, 163, 90) 1px 0 10px;
 
 }
 
-h5>a {
+.a_contact {
   color: rgb(87, 122, 238);
   text-decoration-color: black;
 }
@@ -200,8 +209,12 @@ section {
 /**      rules     **/
 .abc {
   margin-left: 10%;
-  list-style-type: lower-latin;
+  /* list-style-type: lower-latin;
+   */
+  list-style-image: url(../img/001-hockey.png);
+
 }
+
 
 .li_style {
   margin-left: 5%;
@@ -264,8 +277,8 @@ th {
 table {
 
   font-family: 'Poppins', sans-serif;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
 
 
 }
@@ -274,8 +287,8 @@ table {
   display: flex;
   flex-direction: row;
   width: 600px;
-  height: 300px;
-  margin-bottom: 20px;
+  height: 260px;
+  margin-bottom: 1%;
 
 }
 
@@ -295,6 +308,16 @@ table {
   filter: contrast(120%);
 }
 
-.container2 {
-  width: 30% !important;
+
+.game_information {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.game_information>div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
