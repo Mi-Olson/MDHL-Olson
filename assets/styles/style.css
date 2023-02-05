@@ -41,14 +41,14 @@
 
 }
 
-#nav {
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: end;
 
-  margin-top: 11%;
+  margin-top: 5%;
   width: 40vw;
-  height: 20vh;
+ 
   z-index: 3;
   background-color: transparent;
 
@@ -63,12 +63,13 @@
   text-decoration: none;
   color: aliceblue;
   border: 1px solid rgb(0, 0, 0);
-  height: 30%;
+
   padding: 0px 10px;
   margin: 10px 5px;
   border-radius: 8px;
   text-align: center;
   box-shadow: 2px 2px rgb(156, 158, 158);
+  min-height: 8vh;
 
 }
 
@@ -321,3 +322,39 @@ table {
   flex-direction: column;
   width: 50%;
 }
+
+/* registration*/
+.container_registration{
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  margin-top: 2%;
+  margin-left: 10%;
+  height: 20vh;
+  width: 90%;
+  z-index: 0;
+}
+.container_registration>img{
+  width: 10%;
+  display: inline-block;
+}
+#nav_registration{
+
+ margin-top:0%;
+ height: auto;
+
+}
+
+.container_registration h1{
+  
+ 
+  display: inline-block;
+}
+.flex_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+ 
