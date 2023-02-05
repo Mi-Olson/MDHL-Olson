@@ -357,4 +357,34 @@ table {
   justify-content: flex-start;
   align-items: center;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
+  max-width: 70%;
+  margin-left: 10%;
+
+}
+fieldset{
+  margin: 5px 20px;
+  
+}
+.hidden{
+  border:0;
+
+}
+.hidden>legend{
+  display: none;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: last baseline;
+}
+input{
+  margin-right: 5%;
+}
+
  

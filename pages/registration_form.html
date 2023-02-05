@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,26 +11,118 @@
     <link rel="stylesheet" href="../assets/styles/style.css">
     <title>Registration_Form</title>
 </head>
+
 <body>
     <header>
         <div class="container_registration">
-             
-                 <img src="../assets/img/Logo_Mighty_ducks-01.png" alt="logo">
-              
+
+            <img src="../assets/img/Logo_Mighty_ducks-01.png" alt="logo">
+
             <div class="flex_title">
-            <nav class="nav" id="nav_registration">
-                <a class="nav_a" href="../index.html"> Home</a>
-                <a class="nav_a" href="./aboutMDHL.html"> About MDHL</a>
-                <a class="nav_a" href="./contact.html">Contact</a>
-                <a class="nav_a" href="./game_info.html">Game_Info</a>
-                <a class="nav_a" id="selected" href="#">Rules & Policies</a>
-            </nav>
-            <h1>Mighty Duck Hockey League</h1>
+                <nav class="nav" id="nav_registration">
+                    <a class="nav_a" href="../index.html"> Home</a>
+                    <a class="nav_a" href="./aboutMDHL.html"> About MDHL</a>
+                    <a class="nav_a" href="./contact.html">Contact</a>
+                    <a class="nav_a" href="./game_info.html">Game_Info</a>
+                    <a class="nav_a" id="selected" href="#">Rules & Policies</a>
+                </nav>
+                <h1>Mighty Duck Hockey League</h1>
             </div>
 
         </div>
-        
+
     </header>
-    
+    <main>
+
+
+        <form action="show_data.html" method="get">
+            <fieldset>
+                <fieldset class="hidden row">
+                    <legend>Name</legend>
+                <label for="first_name">Player' First Name : </label>
+                <input type="text" name="first_name" id="first_name">
+
+
+                <label for="last_name">Player' Last Name : </label>
+                <input type="text" name="last_name" id="last_name">
+                </fieldset>
+
+                <fieldset class="hidden row">
+                <label for="street_address">Street Address : </label>
+                <input type="text" name="street_address" id="street_address">
+                </fieldset>
+
+                <fieldset class="hidden row">
+                <label for="city">City : </label>
+                <input type="text" name="city" id="city">
+
+                <label for="zip_code">Zip Code : </label>
+                <input type="text" name="zip_code" id="zip_code">
+                </fieldset>
+
+                <fieldset class="hidden row">
+                <label for="birth_date">Birth Date : </label>
+                <input type="date" name="birth_date" id="birth_date"  >
+                </fieldset>
+               
+                <fieldset>
+                    <legend>Gender</legend>
+                
+                <label for="female" >Female  </label>
+                <input type="radio" id="female" name="gender"  value="female">
+                <label for="male" >Male  </label>
+                <input type="radio" id="male" name="gender"  value="male">
+              
+                </fieldset>
+
+                <fieldset>
+                    <legend>Grade</legend>
+                
+                <label for="pre-school" >Pre-School  </label>
+                <input type="radio" id="pre-school" name="grade"  value="pre-school">
+                <label for="1st" >1 <span>st</span>  </label>
+                <input type="radio" id="1st" name="grade"  value="1st">
+                <label for="2nd" >2 <span>nd</span>  </label>
+                <input type="radio" id="2nd" name="grade"  value="2nd">
+                <label for="3rd" >3 <span>rd</span>  </label>
+                <input type="radio" id="3rd" name="grade"  value="3rd">
+                <label for="4th" >4 <span>th</span>  </label>
+                <input type="radio" id="4th" name="grade"  value="4th">
+                <label for="5th" >5 <span>th</span>  </label>
+                <input type="radio" id="5th" name="grade"  value="5th">
+              
+                </fieldset>
+                <fieldset>
+                    <legend>Which elementary school do you live near?</legend>
+                    <p>Closest School :</p>
+                   
+                
+                <label for="aj_katzenmaier" >AJ Katzenmaier  </label>
+                <input type="radio" id="aj_katzenmaier" name="closest_school"  value="aj_katzenmaier">
+                <label for="marjorie_p_hart" > Marjorie P Hart </label>
+                <input type="radio" id="marjorie_p_hart" name="closest_school"  value="marjorie_p_hart">
+                <label for="greenbay" > Greenbay </label>
+                <input type="radio" id="greenbay" name="closest_school"  value="greenbay">
+                <label for="north_elementary" > North Elementary </label>
+                <input type="radio" id="north_elementary" name="closest_school"  value="north_elementary">
+                <label for="howard_a_yeager" > Howard A Yeager </label>
+                <input type="radio" id="howard_a_yeager" name="closest_school"  value="howard_a_yeager">
+                <label for="south_elementary" > South Elementary </label>
+                <input type="radio" id="south_elementary" name="closest_school"  value="south_elementary">
+                
+                
+              
+                </fieldset>
+
+
+            </fieldset>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </form>
+
+
+    </main>
+
 </body>
+
 </html>
