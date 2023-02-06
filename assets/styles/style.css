@@ -365,10 +365,19 @@ align-items: center;
 
   max-width: 70%;
   margin-left: 10%;
+  
 
 }
 fieldset{
-  margin: 5px 20px;
+  
+  /* flex-direction:column;display: flex; */
+  margin: 10px 20px;
+  padding: 10px 0px;
+  
+  
+  
+  
+  
   
 }
 .hidden{
@@ -385,6 +394,20 @@ fieldset{
 }
 input{
   margin-right: 5%;
+  background-color: burlywood;
+  
+}
+label ,input, legend{
+  font-family: 'Poppins', sans-serif;
+}
+label{
+  padding-left: 10px;
+  
+}
+label>span{
+  font-family: 'Poppins', sans-serif;
+  vertical-align: super;
+  margin-right: 1px;
 }
 
  
