@@ -48,7 +48,7 @@
 
   margin-top: 5%;
   width: 40vw;
- 
+
   z-index: 3;
   background-color: transparent;
 
@@ -324,7 +324,7 @@ table {
 }
 
 /* registration*/
-.container_registration{
+.container_registration {
   display: flex;
   flex-direction: row;
   justify-content: baseline;
@@ -335,79 +335,125 @@ table {
   width: 90%;
   z-index: 0;
 }
-.container_registration>img{
+
+.container_registration>img {
   width: 10%;
   display: inline-block;
 }
-#nav_registration{
 
- margin-top:0%;
- height: auto;
+#nav_registration {
+
+  margin-top: 0%;
+  height: auto;
 
 }
 
-.container_registration h1{
-  
- 
+.container_registration h1 {
+
+
   display: inline-block;
 }
-.flex_title{
+
+.flex_title {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
 
   max-width: 70%;
   margin-left: 10%;
-  
+
 
 }
-fieldset{
-  
-  /* flex-direction:column;display: flex; */
-  margin: 10px 20px;
-  padding: 10px 0px;
-  
-  
-  
-  
-  
-  
-}
-.hidden{
-  border:0;
+
+fieldset {
+
+   margin: 10px 20px;
+  padding: 10px 10px;
+  border-radius: 16px;
 
 }
-.hidden>legend{
+
+.hidden {
+  border: 0;
+
+}
+
+.hidden>legend {
   display: none;
 }
-.row{
+
+.row {
   display: flex;
   flex-direction: row;
   justify-content: last baseline;
 }
-input{
+
+input {
   margin-right: 5%;
   background-color: burlywood;
-  
+  border-radius: 16px;
+  border: 1px solid palevioletred;
+  color: blue;
+  text-align: center;
+
 }
-label ,input, legend{
+
+label,
+input,
+legend
+ {
   font-family: 'Poppins', sans-serif;
 }
-label{
+
+label {
   padding-left: 10px;
-  
+  padding-right: 5px;
+
 }
-label>span{
+
+label>span {
   font-family: 'Poppins', sans-serif;
   vertical-align: super;
   margin-right: 1px;
 }
-
+#buttons button{
+  border-radius: 18px;
+  width: 8vw;
+  height: 8vh;
  
+ 
+}
+#buttons{
+  align-items: end;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 5%; 
+ }
+ .reset{
+  background-color: red;
+ }
+ .submit{
+  background-color: green;
+ }
+
+ /*****/
+ .show_data{
+  display: flex;
+  justify-content: center;
+   
+
+ }
+ .show_data td{
+  font-family: 'Poppins', sans-serif;
+   font-weight: normal;
+
+ }
