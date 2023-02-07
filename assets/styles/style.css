@@ -48,7 +48,7 @@
 
   margin-top: 5%;
   margin-right: 5%;
-  width: 40vw;
+  width: 30vw;
 
   z-index: 3;
   background-color: transparent;
@@ -169,7 +169,7 @@ main {
 
 #container2 {
   width: 30%;
-  margin-left: 1px;
+ 
   margin-left: 3%;
 
 }
@@ -344,12 +344,14 @@ table {
 .container_registration>img {
   width: 10%;
   display: inline-block;
+  margin: 3%;
 }
 
 #nav_registration {
-
+  
   margin-top: 0%;
   height: auto;
+  width: 40vw;
 
 }
 
@@ -440,7 +442,6 @@ label>span {
 
 #buttons {
   align-items: end;
-  /* width: 100%; */
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -505,3 +506,28 @@ label>span {
 
 }
 /***************/
+
+@media screen and (max-width:1024px)  {
+  .nav{
+    width: 90vh;
+  }
+
+  
+}
+@media screen and (max-width:375px) {
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+#container2{
+  width: 100%;
+  justify-content: center;
+
+}
+#figure2{
+  width: 50%;
+}
+}  
