@@ -95,22 +95,24 @@
                 </fieldset>
                 <fieldset>
                     <legend>Which elementary school do you live near?</legend>
-                    <h5>Closest School :</h5>
-
-                    <label for="aj_katzenmaier">AJ Katzenmaier </label>
-                    <input type="radio" id="aj_katzenmaier" name="closest_school" value="aj_katzenmaier">
-                    <label for="marjorie_p_hart"> Marjorie P Hart </label>
-                    <input type="radio" id="marjorie_p_hart" name="closest_school" value="marjorie_p_hart">
-                    <label for="greenbay"> Greenbay </label>
-                    <input type="radio" id="greenbay" name="closest_school" value="greenbay">
-                    <label for="north_elementary"> North Elementary </label>
-                    <input type="radio" id="north_elementary" name="closest_school" value="north_elementary">
-                    <label for="howard_a_yeager"> Howard A Yeager </label>
-                    <input type="radio" id="howard_a_yeager" name="closest_school" value="howard_a_yeager">
-                    <label for="south_elementary"> South Elementary </label>
-                    <input type="radio" id="south_elementary" name="closest_school" value="south_elementary">
-                     
-                </fieldset>
+                    
+                    
+                    
+                        <label for="closest_school">Closest School :</label>
+    
+                        <select name="closest_school" id="closest_school">
+                           
+                            <option value="aj_katzenmaier">AJ Katzenmaier</option>
+                            <option value="marjorie_p_hart">Marjorie P Hart</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="howard_a_yeager">Howard A Yeager</option>
+                            <option value="south_elementary">South Elementary</option>
+                            
+                        </select>
+                         
+                    </fieldset>
+                
 
                 <fieldset>
                     <legend>Whas position(s) do you normally play? (check all that apply)</legend>
@@ -128,25 +130,19 @@
                      
                 </fieldset>
                 <fieldset>
-                    <legend>Uniform Size</legend>
+                    
+                    <label for="uniform_size">Uniform Size  :</label>
 
-
-                    <label for="youth_small">Youth Small </label>
-                    <input type="radio" id="youth_small" name="uniform_size" value="youth_small">
-                    <label for="youth_medium">Youth Medium </label>
-                    <input type="radio" id="youth_medium" name="uniform_size" value="youth_medium">
-                    <label for="youth_large">Youth Large </label>
-                    <input type="radio" id="youth_large" name="uniform_size" value="youth_large">
-                    <label for="small">Small </label>
-                    <input type="radio" id="small" name="uniform_size" value="small">
-                    <label for="medium">Medium </label>
-                    <input type="radio" id="medium" name="uniform_size" value="medium">
-                    <label for="large">Large </label>
-                    <input type="radio" id="large" name="uniform_size" value="large">
-                    <label for="extra_large">Extra Large </label>
-                    <input type="radio" id="extra_large" name="uniform_size" value="extra_large">
-
-
+                    <select name="uniform_size" id="uniform_size">
+                        <option value="" >Choose a size</option>
+                        <option value="youth_small">Youth Small</option>
+                        <option value="youth_medium">Youth Medium</option>
+                        <option value="youth_large">Youth Large</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                        <option value="extra_large">Extra_large</option>
+                    </select>
                      
                 </fieldset>
                 <fieldset>
@@ -173,7 +169,7 @@
 
                 <fieldset id="buttons">
                     <button class="reset" type="reset">reset</button>
-                    <button class="submit"type="submit">submit</button>
+                    <button class="submit" type="submit">submit</button>
 
                 </fieldset>
             </fieldset>
