@@ -103,7 +103,7 @@
   width: 100%;
   height: 36vh;
   overflow: hidden;
-  
+
   display: inline-block;
   background-image: url("../img/design1_image2.jpg");
   background-size: cover;
@@ -115,12 +115,11 @@
 
 
 .title {
-  
+
   color: rgb(247, 244, 244);
   background-color: black;
   font-size: 24px;
   text-align: center;
-  border: 2px solid black;
   width: 100%;
 
 
@@ -169,7 +168,7 @@ main {
 
 #container2 {
   width: 30%;
- 
+
   margin-left: 3%;
 
 }
@@ -241,13 +240,9 @@ footer {
   display: flex;
   justify-content: center;
   width: 100%;
- 
-  
-  border: 1px solid black;
   height: 10%;
   padding: 2px;
   background-color: black;
-
   font-size: 8px;
 
 }
@@ -270,8 +265,9 @@ th {
   text-shadow: #FC0 1px 0 10px;
   font-weight: 500;
 }
-td{
-  font-size:1.3em;
+
+td {
+  font-size: 1.3em;
 }
 
 .tbody {
@@ -332,7 +328,7 @@ table {
 .container_registration {
   display: flex;
   flex-direction: row;
-  justify-content: baseline;
+  justify-content:flex-start;
   align-items: center;
   margin-top: 2%;
   margin-left: 10%;
@@ -348,7 +344,7 @@ table {
 }
 
 #nav_registration {
-  
+
   margin-top: 0%;
   height: auto;
   width: 40vw;
@@ -399,7 +395,7 @@ fieldset {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: last baseline;
+  justify-content: flex-start;
 }
 
 input {
@@ -419,8 +415,8 @@ legend {
 }
 
 label {
-  
-  padding-right: 1%; 
+
+  padding-right: 1%;
   margin-left: 0px;
   width: auto;
 
@@ -478,56 +474,62 @@ label>span {
   -moz-box-shadow: 30px 27px 41px -10px rgba(11, 163, 37, 0.75);
   padding: 10px;
   width: 30%;
-  margin:200px 0px;
- 
-  
+  margin: 200px 0px;
+
+
 
 }
 
 .container_map>iframe {
   width: 100%;
 }
-.title_map{
+
+.title_map {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
-  align-items: center; 
+  justify-content: space-between;
+  align-items: center;
 
-  
+
 }
-.maps{
-  display:flex;
+
+.maps {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   margin-top: 100%;
   /* column-gap: 200%;
   row-gap: 200%; */
 
 }
+
 /***************/
 
-@media screen and (max-width:1024px)  {
-  .nav{
+@media screen and (max-width:1024px) {
+  .nav {
     width: 90vh;
   }
 
-  
+
 }
+
 @media screen and (max-width:375px) {
 
-main{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-}
-#container2{
-  width: 100%;
-  justify-content: center;
+  }
 
+  #container2 {
+    width: 100%;
+    justify-content: center;
+
+  }
+
+  #figure2 {
+    width: 50%;
+  }
 }
-#figure2{
-  width: 50%;
-}
-}  
